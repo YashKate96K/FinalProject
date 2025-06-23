@@ -1,0 +1,6 @@
+__pycache__/
+*.pyc
+.env
+venv/
+*.p12
+*.pem

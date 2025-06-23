@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Feedback Analyzer</title>
+</head>
+<body>
+    <h1>Feedback Analyzer</h1>
+    <form method="POST">
+        <textarea name="feedback" rows="4" cols="50" placeholder="Enter your feedback..."></textarea><br>
+        <button type="submit">Analyze</button>
+    </form>
+    <h2>Past Feedback</h2>
+    <ul>
+        {% for fb in feedbacks %}
+            <li>{{ fb.text }} - Sentiment: {{ fb.sentiment_score | default('N/A') }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
