@@ -2,9 +2,9 @@
 # 💬 Feedback Analyzer – Sentiment Dashboard
 
 A lightweight web application that analyzes the sentiment of user-submitted feedback using Google Cloud's Natural Language API. Built with Flask, Firestore, and deployed on Google Cloud Run — accessible to anyone globally.
+App Home Page :
+![Screenshot 2025-06-24 010704](https://github.com/user-attachments/assets/6d4903c4-855d-48ae-b1ea-a818a7613c58)
 
-![App Screenshot](![image](https://github.com/user-attachments/assets/b7006ebb-df7f-46f7-8109-d5d9ebaf07bb)
-) <!-- Add screenshot if needed -->
 Metrix :
 ![Screenshot 2025-06-24 010328](https://github.com/user-attachments/assets/1bbf4133-c838-4b4c-8003-41af3844c71d)
 
